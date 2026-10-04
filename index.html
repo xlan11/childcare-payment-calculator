@@ -11,22 +11,16 @@
   </head>
   <body>
     <main class="shell">
-      <header class="topbar">
-        <div class="brand-mark" aria-hidden="true">✦</div>
-        <div><p class="eyebrow">Weekly planner</p><h1>Childcare payments</h1></div>
-      </header>
-      <section class="intro" aria-labelledby="page-title">
-        <div><p class="eyebrow accent">Tax-Free Childcare</p><h2 id="page-title">Plan this week’s childcare</h2><p class="intro-copy">Choose the days each child is attending and see what to put into your childcare account.</p></div>
-        <div class="week-chip" aria-label="Current week"><span></span> This week</div>
-      </section>
+      <header class="topbar"><div class="brand-mark" aria-hidden="true">✦</div><div><p class="eyebrow">Weekly planner</p><h1>Childcare payments</h1></div></header>
+      <section class="intro" aria-labelledby="page-title"><div><p class="eyebrow accent">Tax-Free Childcare</p><h2 id="page-title">Plan this week’s childcare</h2><p class="intro-copy">Choose the days each child is attending and see what to put into your childcare account.</p></div><div class="week-chip" aria-label="Current week"><span></span> This week</div></section>
       <section class="children" aria-label="Children and days">
         <article class="child-card"><div class="child-avatar jack" aria-hidden="true">J</div><div class="child-info"><h3>Jack</h3><p>£12.00 per day</p></div><div class="day-control" data-child="jack"><button type="button" class="stepper" data-action="decrease" aria-label="Remove a day for Jack">−</button><output class="days" aria-live="polite">3</output><span class="day-label">days</span><button type="button" class="stepper" data-action="increase" aria-label="Add a day for Jack">+</button></div></article>
         <article class="child-card"><div class="child-avatar orla" aria-hidden="true">O</div><div class="child-info"><h3>Orla</h3><p>£14.40 per day</p></div><div class="day-control" data-child="orla"><button type="button" class="stepper" data-action="decrease" aria-label="Remove a day for Orla">−</button><output class="days" aria-live="polite">3</output><span class="day-label">days</span><button type="button" class="stepper" data-action="increase" aria-label="Add a day for Orla">+</button></div></article>
       </section>
-      <section class="summary-card" aria-labelledby="summary-title"><div class="summary-heading"><div><p class="eyebrow accent">Your weekly summary</p><h2 id="summary-title">Amount to set aside</h2></div><div class="spark" aria-hidden="true">✦</div></div><div class="deposit-panel"><p class="result-label">You need to deposit</p><p class="deposit-value" id="deposit">£55.08</p><p class="result-subtext">into your childcare account</p></div><div class="summary-rows"><div class="summary-row"><span>Childcare after 15% discount</span><strong id="discounted">£79.20</strong></div><div class="summary-row"><span>Government top-up (20%)</span><strong id="topup">£13.80</strong></div></div></section>
+      <section class="summary-card" aria-labelledby="summary-title"><div class="summary-heading"><div><p class="eyebrow accent">Your weekly summary</p><h2 id="summary-title">Amount to set aside</h2></div><div class="spark" aria-hidden="true">✦</div></div><div class="deposit-panel"><p class="result-label">You need to deposit</p><p class="deposit-value" id="deposit">£55.08</p><p class="result-subtext">into your childcare account</p></div><div class="summary-rows"><div class="summary-row"><span>Childcare after 15% discount</span><strong id="discounted">£79.20</strong></div><div class="summary-row"><span>Government top-up (20%)</span><strong id="topup">£13.80</strong></div><div class="summary-row total-row"><span>Total childcare bill</span><strong id="total">£79.20</strong></div></div></section>
       <details class="explanation"><summary><span class="info-icon">i</span> How is this worked out?</summary><div class="explanation-body"><p>We add each child’s daily cost, take 15% off, then split the discounted bill into your 80% deposit and the government’s 20% top-up.</p><p class="formula">Full cost → 15% discount → 80% deposit + 20% top-up</p></div></details>
       <footer>Amounts are rounded to the nearest penny.</footer>
     </main>
     <script src="app.js"></script>
   </body>
-</html>  
+</html>
